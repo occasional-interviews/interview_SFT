@@ -63,7 +63,7 @@ def main():
     model.print_trainable_parameters()
 
     print("\nLoading training data...")
-    train_data = load_train_data("datasets/train_2x2.jsonl")
+    train_data = load_train_data("datasets/train.jsonl")
 
     print(f"Fine-tuning for {num_steps} steps...")
     optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4)
