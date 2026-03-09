@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import LoraConfig, get_peft_model
-from arcadia_interview_sft import load_train_data, load_prompts, sft_step, generate_completions, score_sycophancy
+from interview_sft import load_train_data, load_prompts, sft_step, generate_completions, score_sycophancy
 
 
 def avg_length(completions: list[str]) -> float:

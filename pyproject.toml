@@ -1,5 +1,5 @@
 [project]
-name = "arcadia-interview-sft"
+name = "interview-sft"
 version = "0.1.0"
 description = "SFT spurious correlation interview question"
 requires-python = ">=3.10"
@@ -15,4 +15,4 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/arcadia_interview_sft"]
+packages = ["src/interview_sft"]
